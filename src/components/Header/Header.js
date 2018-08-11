@@ -7,6 +7,7 @@ import Img from 'gatsby-image';
 
 const HeaderWrapper = styled.div`
   margin-bottom: 1.45rem;  
+  background: #3fa75b;
   overflow: hidden;
   position: relative;
   height: ${({isHome}) => (isHome ? '70vh' : '20vh')};
